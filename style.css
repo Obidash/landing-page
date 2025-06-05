@@ -1,0 +1,31 @@
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Roboto';
+    margin: 0px;
+    padding:0px;
+
+}
+
+.header
+{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 24px;
+    padding: 0px 200px;
+}
+
+ul
+{
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    padding: 0px;
+    font-size: 18px;
+}
