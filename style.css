@@ -35,7 +35,7 @@ ul
     font-size: 18px;
 }
 
-.header,.top
+.header,.top,.footer
 {
     background-color: #1f2937;
     color: #f9faf8;
@@ -113,7 +113,8 @@ button
     width: 250px;
     height: 250px;
     border: solid;
-    border-color: #3882f6;
+    /* border-color: #3882f6; */
+    border-color: #1f2937;
     border-width: 8px;
     border-radius: 50px;
     flex-shrink: 0;
@@ -170,5 +171,53 @@ button
     display: flex;
     flex-direction: column;
     width: 100%;
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cta
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    margin: 100px 200px;
+    padding: 50px 150px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 16px;
+    max-width: 2000px;
+    
+}
+
+.text
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1000px;
+}
+
+.cta .text .title
+{
+    color: #f9faf8;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.cta button
+{
+    border-color: #f9faf8;
+}
+
+.footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
